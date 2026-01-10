@@ -1,0 +1,44 @@
+.bck {
+  background-color: rgb(37, 109, 128);
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+.profile-img {
+  height: 200px;
+  width: 200;
+  border-radius: 20%;
+}
+
+.container {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.hr-dotted {
+  width: 120px; /* kontrollon gjatësinë */
+  border: none;
+  border-top: 3px dotted #999;
+}
+.my-button {
+  font-family: "Courier New", monospace; /* Fonti që do */
+  font-size: 18px; /* Madhësia */
+  font-weight: bold; /* Trashësia */
+}
+@media (max-width: 800px) {
+  .container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+}
